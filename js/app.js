@@ -3959,8 +3959,8 @@
                 formRemoveError(input);
                 if (input.classList.contains("_email")) {
                     if (emailTest(input)) {
-                        formAddError(input);
-                        error++;
+                        //formAddError(input);
+                        //error++;
                     }
                 } else if ("checkbox" === input.getAttribute("type") && false === input.checked) {
                     formAddError(input);
