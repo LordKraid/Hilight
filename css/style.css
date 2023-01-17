@@ -740,18 +740,18 @@ body::after {
 }
 
 .form-popup .form-popup__input-text:not(:-moz-placeholder-shown) ~ .form-popup__absolute {
-  top: -15px;
+  top: -20px;
   font-size: 10px;
 }
 
 .form-popup .form-popup__input-text:not(:-ms-input-placeholder) ~ .form-popup__absolute {
-  top: -15px;
+  top: -20px;
   font-size: 10px;
 }
 
 .form-popup .form-popup__input-text:focus ~ .form-popup__absolute,
 .form-popup .form-popup__input-text:not(:placeholder-shown) ~ .form-popup__absolute {
-  top: -15px;
+  top: -20px;
   font-size: 10px;
 }
 
@@ -5427,6 +5427,14 @@ button.swiper-pagination-bullet {
     display: block;
     -ms-grid-row: 5;
         grid-row-start: 5;
+  }
+
+  .main-body .gallary-component-1__item{
+    filter: brightness(1);
+  }
+
+  .component-1__container-big .gallary-component-1 .gallary-component-1__item .down-text-component-1 .down-text-component-1__button-link{
+    display: none;
   }
 
   .body__container-big .contact-info .second-block-contact-info__Kyiv {
